@@ -1,0 +1,135 @@
+
+        .slide{
+
+            padding: 0px 20px 0px 230px;
+            margin-bottom: -20px;
+        }
+        .bodybg{
+
+            background-image: url(bg.jpg);
+        }
+
+
+        .jssorb01 {
+            position: absolute;
+        }
+        .jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 12px;
+            height: 12px;
+            filter: alpha(opacity=70);
+            opacity: .7;
+            overflow: hidden;
+            cursor: pointer;
+            border: #000 1px solid;
+        }
+        .jssorb01 div { background-color: gray; }
+        .jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
+        .jssorb01 .av { background-color: #fff; }
+        .jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
+
+        
+        .jssora05l, .jssora05r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            background: url('../img/a17.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora05l { background-position: -10px -40px; }
+        .jssora05r { background-position: -70px -40px; }
+        .jssora05l:hover { background-position: -130px -40px; }
+        .jssora05r:hover { background-position: -190px -40px; }
+        .jssora05l.jssora05ldn { background-position: -250px -40px; }
+        .jssora05r.jssora05rdn { background-position: -310px -40px; }
+
+        .homepage{
+            text-align: center;
+            margin-top: 10px;
+            align-items: right;
+            background-color: transparent;
+            padding-right: 2px;
+
+        }
+        .homepage h2{
+            text-transform: uppercase;
+            font-size: 30px;
+            color: white;
+            font-family: 'Arvo',courier ,serif; 
+            font-weight: 300;
+            padding: 20px 0px 10px 0px;
+
+
+        }
+       .homepage p{
+
+        font-size: 20px;
+        font-family: 'Arvo',courier ,serif;
+        color:white;
+       }
+       .idk{
+        font-size: 20px;
+        color: blue;
+       }
+       footer{
+        background-color:#f7453c; 
+        padding-top: 40px;
+       }
+
+
+* {
+    border:none; 
+    margin:0; 
+    padding:0;
+}
+
+body {
+    background:#fff; 
+    color: #999999; 
+    font:12.35px Georgia, Arial, "Lucida Grande", Verdana, sans-serif;
+}
+
+a:link, a:visited {
+    color:#0054a6;
+    text-decoration:none; 
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+p {
+    margin:15px 0;
+}
+
+h1 {
+    font-size:20px;
+    margin-bottom:20px; 
+}
+
+#wrap {
+    margin:10px auto;
+    width:900px;
+}
+
+#wrap img {
+    display:block;
+    margin:0 auto; 
+}
+
+
+
+}
+
+        
+
+
+
+
+
+
+
