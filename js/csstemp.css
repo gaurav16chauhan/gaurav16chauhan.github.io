@@ -46,7 +46,7 @@ padding-left: 230px;
     position: absolute; 
     left: 200px;
     width: 0;
-    height: 131%;
+    height: 146%;
     margin-left: -200px;
     overflow-y: auto;
     background: #000;
@@ -186,7 +186,7 @@ padding-left: 230px;
 
 
 }
- @media(max-width:992px)
+ @media(max-width:991px)
     {
        
 
@@ -207,22 +207,13 @@ padding-left: 230px;
             width: 200px;
         }
 
-        #sliding {
-            width: 300px;
-         height: 200px;   
+       
         
-        }
-        
-        #header-nav{
-            width: auto;
-        }
+    
 
 
 
-        .slid img{
-            width: 400px;
-            height: 150px;
-        }
+       
 
         .pagee{
             
@@ -237,6 +228,10 @@ padding-left: 230px;
             margin-left: 30px;
 
             
+        }
+        #ncc{
+        margin-left:90px; 
+        margin-top: -25px;
         }
 
 
@@ -261,12 +256,12 @@ padding-left: 230px;
         }
 
          #slidepic{
-        margin-top: 140px;
+        margin-top: 90px;
         margin-left: -250px;
     }
   #jssor_1{
 
-        position: relative; margin: 0 auto; top: 0px; margin-left:150px; width: 550px; height: 230px; overflow: hidden; visibility: hidden;
+        position: relative; margin: 0 auto; top: 0px; margin-left:100px; width: 550px; height: 230px; overflow: hidden; visibility: hidden;
         transform: scale(0.9);
     }
     #navig{
@@ -299,16 +294,7 @@ padding-left: 230px;
     {
 
 
-        .navbar-collapse{
-            width: 40%
-        }
-        .navbar-collapse , .navbar-right ,.navbar-left ul{
-
-            font-size: 10px;
-            align:left;
-
-
-        }
+       
 
          .pagee{
             
@@ -319,10 +305,10 @@ padding-left: 230px;
             margin-bottom: -100px;
         }
         #calling h2{
-            font-size: 20px;
+            font-size: 22px;
         }
         #calling p{
-            font-size: 15px;
+            font-size: 16px;
         }
         #calling{
         width:240px;
@@ -342,10 +328,9 @@ padding-left: 230px;
 
         .pagee img{
             margin-top: 20px;
-            margin-left: 100px;
+            margin-left: 0px;
 
-            height: 180px;
-            width:450px;
+            
         }
         
 
@@ -365,7 +350,7 @@ padding-left: 230px;
         .homepage{
             margin-left: 220px;
             width: auto;
-        margin-top: 140px;
+        margin-top: 180px;
         }
         
 
@@ -376,8 +361,8 @@ padding-left: 230px;
     }
   #jssor_1{
 
-        position: relative; margin: 0 auto; top: 0px; left: 0px; width: 350px; height: 180px; overflow: hidden; visibility: hidden;
-        transform: scale(0.7);
+        position: relative; margin: 0 auto; top: 0px; margin-left: 50px; width: 350px; height: 180px; overflow: hidden; visibility: hidden;
+        transform: scale(0.8);
     }
     #navig{
         position: absolute; top: 0px; left: 0px;
@@ -405,7 +390,7 @@ padding-left: 230px;
     }
         
     } 
-    @media (max-width:660px)
+    @media (max-width:559px)
     {
 #calling{
     width: 180px;
@@ -422,10 +407,21 @@ footer{
 }
 .homepage{
     width: auto;
+    margin-left: 160px;
 }
+#calling p{
+    font-size: 15px;
+}
+#calling h2{
+    color:;
+    font-size: 25px;
+}
+.idk{
+        font-size: 19px;
+    }
 .pagee img{
     margin-top: 40px;
-            margin-left: 120px;
+            margin-left: 80px;
 
             height: 150px;
             width:320px;
@@ -436,7 +432,7 @@ footer{
     }
   #jssor_1{
 
-        position: relative; margin: 0 auto; top: 0px; margin-left: -90px; width: 220px; height: 100px; overflow: hidden; visibility: hidden;
+        position: relative; margin: 0 auto; top: 0px; margin-left: -150px; width: 220px; height: 100px; overflow: hidden; visibility: hidden;
         transform: scale(0.7);
     }
     #navig{
@@ -461,11 +457,11 @@ footer{
     }
     .jssora05l, .jssora05r {
 
-        margin-top: 65px;
+        margin-top: 52px;
     }
 
     }
- @media (max-width:330px)
+ @media (max-width:319px)
     {
 
 #calling h2{
@@ -478,7 +474,7 @@ footer{
     width: auto;
 }
 .homepage{
-    margin-left: 60px;
+    margin-left: 50px;
     width: auto;
     margin-top: 60px;
 }
@@ -491,7 +487,7 @@ footer img{
         }
 .pagee img{
     margin-top: 40px;
-            margin-left: 30px;
+            margin-left: 0px;
 
             height: 100px;
             width:220px;
@@ -513,7 +509,7 @@ footer img{
     }
   #jssor_1{
 
-        position: relative; margin: 0 auto; top: 0px; margin-left: -100px; width: 220px; height: 100px; overflow: hidden; visibility: hidden;
+        position: relative; margin: 0 auto; top: 0px; margin-left: -105px; width: 220px; height: 100px; overflow: hidden; visibility: hidden;
         transform: scale(0.5);
     }
     #navig{
@@ -538,7 +534,10 @@ footer img{
     }
     .jssora05l, .jssora05r {
 
-        margin-top: 65px;
+        margin-top: 60px;
+    }
+    .idk{
+        font-size: 12px;
     }
 
 
