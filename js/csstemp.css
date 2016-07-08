@@ -262,11 +262,12 @@ padding-left: 230px;
 
          #slidepic{
         margin-top: 140px;
-        margin-left: -160px;
+        margin-left: -250px;
     }
   #jssor_1{
 
-        position: relative; margin: 0 auto; top: 0px; left: 0px; width: 550px; height: 230px; overflow: hidden; visibility: hidden;
+        position: relative; margin: 0 auto; top: 0px; margin-left:150px; width: 550px; height: 230px; overflow: hidden; visibility: hidden;
+        transform: scale(0.9);
     }
     #navig{
         position: absolute; top: 0px; left: 0px;
@@ -340,8 +341,8 @@ padding-left: 230px;
         }
 
         .pagee img{
-            margin-top: 60px;
-            margin-left: 90px;
+            margin-top: 20px;
+            margin-left: 100px;
 
             height: 180px;
             width:450px;
@@ -364,18 +365,19 @@ padding-left: 230px;
         .homepage{
             margin-left: 220px;
             width: auto;
-        margin-top: 160px;
+        margin-top: 140px;
         }
         
 
 
          #slidepic{
-        margin-top: 50px;
-        margin-left: -30px;
+        margin-top: 40px;
+        margin-left: -240px;
     }
   #jssor_1{
 
         position: relative; margin: 0 auto; top: 0px; left: 0px; width: 350px; height: 180px; overflow: hidden; visibility: hidden;
+        transform: scale(0.7);
     }
     #navig{
         position: absolute; top: 0px; left: 0px;
@@ -421,6 +423,46 @@ footer{
 .homepage{
     width: auto;
 }
+.pagee img{
+    margin-top: 40px;
+            margin-left: 120px;
+
+            height: 150px;
+            width:320px;
+        }
+  #slidepic{
+        margin-top: 50px;
+        margin-left: -140px;
+    }
+  #jssor_1{
+
+        position: relative; margin: 0 auto; top: 0px; margin-left: -90px; width: 220px; height: 100px; overflow: hidden; visibility: hidden;
+        transform: scale(0.7);
+    }
+    #navig{
+        position: absolute; top: 0px; left: 0px;
+    }
+    #styll{
+        filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;
+    }
+    #styl{
+        position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;
+    }
+    #stylli{
+        cursor: default; position: relative; top: 0px; left: 0px; bottom: 0px; width: 220px; height: 100px; overflow: hidden;
+    }
+     #arro{
+        top:0px;left:8px;width:40px;height:40px;
+
+    }
+    #arro1{
+         top:0px;right:8px;width:40px;height:40px;
+
+    }
+    .jssora05l, .jssora05r {
+
+        margin-top: 65px;
+    }
 
     }
  @media (max-width:330px)
@@ -467,11 +509,12 @@ footer img{
 
     #slidepic{
         margin-top: 50px;
-        margin-left: -60px;
+        margin-left: -250px;
     }
   #jssor_1{
 
-        position: relative; margin: 0 auto; top: 0px; left: 0px; width: 250px; height: 130px; overflow: hidden; visibility: hidden;
+        position: relative; margin: 0 auto; top: 0px; margin-left: -100px; width: 220px; height: 100px; overflow: hidden; visibility: hidden;
+        transform: scale(0.5);
     }
     #navig{
         position: absolute; top: 0px; left: 0px;
@@ -483,7 +526,7 @@ footer img{
         position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;
     }
     #stylli{
-        cursor: default; position: relative; top: 0px; left: 0px; bottom: 0px; width: 250px; height: 130px; overflow: hidden;
+        cursor: default; position: relative; top: 0px; left: 0px; bottom: 0px; width: 220px; height: 100px; overflow: hidden;
     }
      #arro{
         top:0px;left:8px;width:40px;height:40px;
