@@ -38,46 +38,70 @@
   }
 }
     </style>
+<script type="text/javascript">
+    
+$(" .navbar-collapse ul li a.[href^='#']").on('click', function(e) {
 
+   // prevent default anchor click behavior
+   e.preventDefault();
+
+   // store hash
+   var hash = this.hash;
+
+   // animate
+   $('html, body').animate({
+       scrollTop: $(hash).offset().top
+     }, 1200, function(){
+
+       // when done, add hash to url
+       // (default click behaviour)
+       window.location.hash = hash;
+     });
+
+});
+
+</script>
 </head>
-<body>
+<body data-spy="scroll" data-taregt=".navbar-collapse" >
 <link href='http://fonts.googleapis.com/css?family=Raleway:400,200' rel='stylesheet' type='text/css'> 
   
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
 
 
+
 <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
     <script type="text/javascript" src="js/jstemp.js"></script>
+
 <div class="bodybg">
 
-
+<div class="container">
 
 <div class="navvbar">
-    <nav class="navbar navbar-default no-margin navbar-top">
+    <nav class="navbar navbar-default no-margin navbar-fixed-top" >
     <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header fixed-brand">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  id="menu-toggle">
+                <div class="navbar-header fixed-brand" id="navbar-scroll">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" id="menu-toggle">
                       <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
                     </button>
-                    <a class="navbar-brand" href="#"><i class="fa fa-rocket fa-4"></i> SEARCHIFY</a>
+                    <a class="navbar-brand" href="#jssor_1"><i class="fa fa-rocket fa-4"></i> SEARCHIFY</a>
                 </div><!-- navbar-header-->
  
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="collapse navbar-collapse"  id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav">
-                                <li class="active" ><button class="navbar-toggle collapse in" data-toggle="collapse" id="menu-toggle-2"> <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span></button></li>
+                                <li class="active" ><button class="navbar-toggle collapse in" data-toggle="collapse" data-target=".navbar-collapse" id="menu-toggle-2"> <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span></button></li>
                             </ul>
                             <ul class="nav navbar-nav navbar-left">
     <li class="show" ><a href="#"><b>WELCOME TO SEARCHIFY</b></a></li>
     </ul>
-    <ul class="nav navbar-nav navbar-centre" style="margin-lef":200px">
-     <li class="show"><a href="#heading-tag"><span class="fa-stack fa-lg pull-left"><i class="fa fa-sort-down fa-stack-1x "></i></span></a></li>
+    <ul class="nav navbar-nav navbar-centre" id="ncc" >
+     <li class="show"><a href="#heading-tag"><span class="fa-stack fa-2x "><i class="fa fa-sort-down fa-stack-1x "></i></span></a></li>
     </ul>
 
     <ul class="nav navbar-nav navbar-right">
     
-   <li class="show"><a href="#heading-tag">Heading</a></li>
+   
       <li class="show"><a href="../csst/index.html">Home</a></li>
        
       <li class="show"><a href="../csst/contact.html">contact us</a></li>
@@ -89,11 +113,11 @@
     </nav>
     
     </div>
-    <div>
+    
     <div class="side">
     <div id="wrapper" class="toggled-2">
         <!-- Sidebar -->
-        <div id="sidebar-wrapper">
+        <div id="sidebar-wrapper" style="margin-top:65px;">
             <ul class="sidebar-nav nav-pills nav-stacked" id="menu">
  
                 <li class="active">
@@ -133,14 +157,14 @@
 
 <div class="container ">
 
-<div class="slide" style="margin-top:20px;" >
-    <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 600px; height: 300px; overflow: hidden; visibility: hidden;">
+<div class="slide" id="slidepic" >
+    <div id="jssor_1">
         <!-- Loading Screen -->
-        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
-            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
-            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+        <div id="navig" data-u="loading" >
+            <div id="styll" ></div>
+            <div id="styl" ></div>
         </div>
-        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; bottom: 10px; width: 600px; height: 250px; overflow: hidden;">
+        <div data-u="slides" class="slid" id="stylli" >
             <div data-p="112.50" style="display: none;">
             <a href="https://www.facebook.com" target="_blank">
                 <img data-u="image" src="img/01.jpg" /></a>
@@ -168,23 +192,20 @@
         
         </div>
         
-        <span data-u="arrowleft" class="jssora05l" style="top:0px;left:8px;width:40px;height:40px;" data-autocenter="2"></span>
-        <span data-u="arrowright" class="jssora05r" style="top:0px;right:8px;width:40px;height:40px;" data-autocenter="2"></span>
+        <span data-u="arrowleft" class="jssora05l" id="arro"  data-autocenter="2"></span>
+        <span data-u="arrowright" class="jssora05r" id="arro1" data-autocenter="2"></span>
     </div>
 </div>
-
-
+</div>
 
 <div class="container">
-<div class="pagee">
-        <div id="page-content-wrapper">
-            <div class="container-fluid xyz">
-                <div class="row">
+       
+                <div class="row pagee">
                     
                        
-                        <p> <h5>  <b> A simple website that connects various social networking websites</b > </h5> <a href="http://seegatesite.com/create-simple-cool-sidebar-menu-with-bootstrap-3/"></a></p>
+                        
                     
- <img src="img/weblogo.jpg" alt=" map image" usemap="#logos" style="margin-left:90px;" />
+ <img src="img/weblogo.jpg" alt=" map image" usemap="#logos"  />
     
         <map name="logos">
             <area shape="circle" coords="68,56,33" href="http://www.stumbleupon.com/" title="StumbleUpon" alt="StumbleUpon" target="_blank" />
@@ -203,24 +224,22 @@
 
                     
                 </div>
-            </div>
-        </div>
-        
+           </div>
         
 
-    </div>
+    
    
    
-
-    <div class="container homepage" style="width:1100px; margin-left:105px;" >
-    <div class="row ">
+    
+    <div class="homepage">
+    <div class="row " id="calling">
     <div class="col-md-4">
 
 
   
 <h2>heading</h2>
 <div id="heading-tag"></div>
-<span class="fa-stack fa-3x">
+<span class="fa-stack fa-3x ">
   <i class="fa fa-circle fa-stack-2x"></i>
   <i class="fa fa-user fa-stack-1x fa-inverse"></i>
 </span>
@@ -230,7 +249,7 @@
     </div>
     <div class="col-md-4">
      <h2> title</h2> 
-     <span class="fa-stack fa-3x">
+     <span class="fa-stack fa-3x ">
   <i class="fa fa-circle fa-stack-2x"></i>
   <i class="fa fa-user fa-stack-1x fa-inverse"></i>
 </span>  
@@ -241,7 +260,7 @@
 
         
 <h2>body</h2>
-<span class="fa-stack fa-3x">
+<span class="fa-stack fa-3x ">
   <i class="fa fa-circle fa-stack-2x"></i>
   <i class="fa fa-user fa-stack-1x fa-inverse"></i>
 </span>
@@ -253,9 +272,11 @@
     
     </div>
     </div>
- </div>
-     
-</div>
+
+     </div>
+     </div>
+
+
 
 <footer>
     
@@ -274,7 +295,7 @@
 </footer>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/sidebar_menu.js"></script>
-    </div>
+    
   
 </body>
 </html>

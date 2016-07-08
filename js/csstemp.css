@@ -20,6 +20,16 @@
 margin-bottom: 0px;
 
 }
+#ncc{
+    margin-left:200px; 
+    margin-top: -25px;
+}
+
+.pagee img{
+    
+ margin-top: 50px;
+    margin-left: 90px;
+}
 .pagee h5{
     color: blue;
 
@@ -143,7 +153,8 @@ padding-left: 230px;
     #wrapper.toggled-2 #sidebar-wrapper:hover {
         width: 200px;
     }
- 
+
+
  
     #page-content-wrapper {
         padding: 20px;
@@ -170,4 +181,323 @@ padding-left: 230px;
         width: auto;
  
     }
+
+
+
+
+}
+ @media(max-width:992px)
+    {
+       
+
+        #calling h2{
+            font-size: 30px;
+        }
+        #calling p{
+            font-size: 20px;
+        }
+       #calling{
+        width:340px;
+       }
+       footer{
+        width:auto;
+       }
+       footer img{
+            height: 120px;
+            width: 200px;
+        }
+
+        #sliding {
+            width: 300px;
+         height: 200px;   
+        
+        }
+        
+        #header-nav{
+            width: auto;
+        }
+
+
+
+        .slid img{
+            width: 400px;
+            height: 150px;
+        }
+
+        .pagee{
+            
+            margin-left: -200px;
+
+            height: 180px;
+            width:400px;
+            margin-bottom: -10px;
+       }
+        .pagee img{
+            margin-top: 60px;
+            margin-left: 30px;
+
+            
+        }
+
+
+        #social-platforms .btn-icon{
+            width: 90px;
+
+        }
+        .btn-facebook .btn-twitter .btn-google-plus .btn-pinterest .btn-linkedin{
+            width: 40px !important;
+        }
+        .fa-stack{
+            font-size: 2em !important;
+        }
+        .fa-circle{
+            font-size: 2.2em !important ;
+        }
+        
+        .homepage{
+            margin-left: 230px;
+            width: auto;
+        margin-top: 130px;
+        }
+
+         #slidepic{
+        margin-top: 140px;
+        margin-left: -160px;
+    }
+  #jssor_1{
+
+        position: relative; margin: 0 auto; top: 0px; left: 0px; width: 550px; height: 230px; overflow: hidden; visibility: hidden;
+    }
+    #navig{
+        position: absolute; top: 0px; left: 0px;
+    }
+    #styll{
+        filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;
+    }
+    #styl{
+        position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;
+    }
+    #stylli{
+        cursor: default; position: relative; top: 0px; left: 0px; bottom: 0px; width: 550px; height: 230px; overflow: hidden;
+    }
+     #arro{
+        top:0px;left:8px;width:40px;height:40px;
+
+    }
+    #arro1{
+         top:0px;right:8px;width:40px;height:40px;
+
+    }
+    .jssora05l, .jssora05r {
+
+        margin-top: 110px;
+    }
+                
+    }
+        @media(max-width:767px)
+    {
+
+
+        .navbar-collapse{
+            width: 40%
+        }
+        .navbar-collapse , .navbar-right ,.navbar-left ul{
+
+            font-size: 10px;
+            align:left;
+
+
+        }
+
+         .pagee{
+            
+            margin-left: -200px;
+
+            height: 180px;
+            width:400px;
+            margin-bottom: -100px;
+        }
+        #calling h2{
+            font-size: 20px;
+        }
+        #calling p{
+            font-size: 15px;
+        }
+        #calling{
+        width:240px;
+    }
+        footer{
+            width: auto;
+        }
+        footer img{
+            height: 90px;
+            width: 150px;
+        }
+
+        #jssor_1{
+            width: 300px;
+         height: 200px;   
+        }
+
+        .pagee img{
+            margin-top: 60px;
+            margin-left: 90px;
+
+            height: 180px;
+            width:450px;
+        }
+        
+
+         #social-platforms .btn-icon {
+            width: 60px;
+
+        }
+        #social-platforms .fa-facebook .fa-twitter .fa-google-plus .fa-pinterest .fa-linkedin{
+            width: 30px;
+        }
+        .fa-stack{
+            font-size: 1em !important;
+        }
+        .fa-circle{
+            font-size: 2em !important ;
+        }
+        .homepage{
+            margin-left: 220px;
+            width: auto;
+        margin-top: 160px;
+        }
+        
+
+
+         #slidepic{
+        margin-top: 50px;
+        margin-left: -30px;
+    }
+  #jssor_1{
+
+        position: relative; margin: 0 auto; top: 0px; left: 0px; width: 350px; height: 180px; overflow: hidden; visibility: hidden;
+    }
+    #navig{
+        position: absolute; top: 0px; left: 0px;
+    }
+    #styll{
+        filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;
+    }
+    #styl{
+        position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;
+    }
+    #stylli{
+        cursor: default; position: relative; top: 0px; left: 0px; bottom: 0px; width: 350px; height: 180px; overflow: hidden;
+    }
+     #arro{
+        top:0px;left:8px;width:40px;height:40px;
+
+    }
+    #arro1{
+         top:0px;right:8px;width:40px;height:40px;
+
+    }
+    .jssora05l, .jssora05r {
+
+        margin-top: 95px;
+    }
+        
+    } 
+    @media (max-width:660px)
+    {
+#calling{
+    width: 180px;
+
+}
+#calling h2{
+    font-size: 15px;
+}
+#calling p{
+    font-size: 10px;
+}
+footer{
+    width: auto;
+}
+.homepage{
+    width: auto;
+}
+
+    }
+ @media (max-width:330px)
+    {
+
+#calling h2{
+    font-size: 10px;
+}
+#calling p{
+    font-size: 7px;
+}
+footer{
+    width: auto;
+}
+.homepage{
+    margin-left: 60px;
+    width: auto;
+    margin-top: 60px;
+}
+footer{
+    height: auto;
+}
+footer img{
+            height: 60px;
+            width: 90px;
+        }
+.pagee img{
+    margin-top: 40px;
+            margin-left: 30px;
+
+            height: 100px;
+            width:220px;
+
+    }
+     #social-platforms {
+  
+  margin-top:10px;
+  margin-left: 0px;
+  font-size:1rem;
+  text-align:center;
+  height:50px;
+  overflow:visible;
+}
+
+    #slidepic{
+        margin-top: 50px;
+        margin-left: -60px;
+    }
+  #jssor_1{
+
+        position: relative; margin: 0 auto; top: 0px; left: 0px; width: 250px; height: 130px; overflow: hidden; visibility: hidden;
+    }
+    #navig{
+        position: absolute; top: 0px; left: 0px;
+    }
+    #styll{
+        filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;
+    }
+    #styl{
+        position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;
+    }
+    #stylli{
+        cursor: default; position: relative; top: 0px; left: 0px; bottom: 0px; width: 250px; height: 130px; overflow: hidden;
+    }
+     #arro{
+        top:0px;left:8px;width:40px;height:40px;
+
+    }
+    #arro1{
+         top:0px;right:8px;width:40px;height:40px;
+
+    }
+    .jssora05l, .jssora05r {
+
+        margin-top: 65px;
+    }
+
+
+
 }

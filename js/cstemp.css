@@ -9,6 +9,35 @@
             background-image: url(bg.jpg);
         }
 
+        #slidepic{
+
+            margin-top:80px;
+            margin-left: -100px;
+        }
+        #jssor_1{
+
+        position: relative; margin: 0 auto; top: 0px; left: 0px; width: 600px; height: 250px; overflow: hidden; visibility: hidden;
+    }
+    #navig{
+        position: absolute; top: 0px; left: 0px;
+    }
+    #styll{
+        filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;
+    }
+    #styl{
+        position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;
+    }
+    #stylli{
+        cursor: default; position: relative; top: 0px; left: 0px; bottom: 10px; width: 600px; height: 250px; overflow: hidden;
+    }
+    #arro{
+        top-margin:110px;left:8px;width:40px;height:40px;
+
+    }
+    #arro1{
+         top-margin:110px;right:8px;width:40px;height:40px;
+
+    }
 
         .jssorb01 {
             position: absolute;
@@ -39,6 +68,7 @@
             cursor: pointer;
             background: url('../img/a17.png') no-repeat;
             overflow: hidden;
+            margin-top: 115px;
         }
         .jssora05l { background-position: -10px -40px; }
         .jssora05r { background-position: -70px -40px; }
@@ -48,16 +78,19 @@
         .jssora05r.jssora05rdn { background-position: -310px -40px; }
 
         .homepage{
+            width:1100px; 
+            margin-left:105px;
             text-align: center;
             margin-top: 10px;
             align-items: right;
             background-color: transparent;
             padding-right: 2px;
+            margin-top: auto;
 
         }
         .homepage h2{
             text-transform: uppercase;
-            font-size: 30px;
+            font-size: 40px;
             color: white;
             font-family: 'Arvo',courier ,serif; 
             font-weight: 300;
@@ -65,9 +98,10 @@
 
 
         }
+
        .homepage p{
 
-        font-size: 20px;
+        font-size: 30px;
         font-family: 'Arvo',courier ,serif;
         color:white;
        }
