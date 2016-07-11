@@ -16,7 +16,8 @@
  
 .pagee{
 
-    padding-left: 200px;
+margin-top:auto;
+   margin-left: 250px;
 margin-bottom: 0px;
 
 }
@@ -28,18 +29,13 @@ margin-bottom: 0px;
 .pagee img{
     
  margin-top: 50px;
-    margin-left: 90px;
+    
 }
-.pagee h5{
-    color: blue;
+.jssora05l, .jssora05r {
 
-padding-left: 230px;
+                margin-top: 110px;
+            }
 
-}
-
-.row {
-    margin-top: -20px;
-}
 
 #sidebar-wrapper {
     z-index: 1000;
@@ -183,449 +179,1030 @@ padding-left: 230px;
     }
 
 
-
-
 }
+@media(max-width: 1200px)
+                {
+                    .homepage{
+                        margin-left: auto;
+                        width: auto;
+                    }
+
+                .pagee{
+
+                    margin-left: 170px;
+                    margin-bottom: auto;
+
+                }
+                }
+
+
+
+
+
+
+@media (max-width:1065px)
+                {
+
+        
+                   footer{
+                    width:auto;
+                   }
+                   footer img{
+                        height: 100px;
+                        width: 160px;
+                    }
+
+                     #calling h2{
+                        font-size: 26px;
+                    }
+                    #calling p{
+                        font-size: 18px;
+                    }
+                     
+
+                    .pagee{
+                        
+                        margin-left: 70px ;
+
+                        
+                   }
+                    .pagee img{
+                        margin-top: 60px;
+                       
+
+                        
+                    }       
+                     #ncc{
+                    margin-left:50px; 
+                    margin-top: -25px;
+                    }
+                    
+                    
+                    .homepage{
+                        margin-left: auto;
+                        width: auto;
+                    margin-top: 50px;
+                    }
+
+                     #slidepic{
+                    margin-top: 90px;
+                    margin-left: -250px;
+                }
+                #jssor_1{
+
+                    position: relative; margin: 0 auto; top: 0px; margin-left:140px; width: 550px; height: 230px; overflow: hidden; visibility: hidden;
+                    transform: scale(0.9);
+                }
+                #navig{
+                    position: absolute; top: 0px; left: 0px;
+                }
+                #styll{
+                    filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;
+                }
+                #styl{
+                    position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;
+                }
+                #stylli{
+                    cursor: default; position: relative; top: 0px; left: 0px; bottom: 0px; width: 550px; height: 230px; overflow: hidden;
+                }
+                 #arro{
+                    top:0px;left:8px;width:40px;height:40px;
+
+                }
+                #arro1{
+                     top:0px;right:8px;width:40px;height:40px;
+
+                }
+                .jssora05l, .jssora05r {
+
+                    margin-top: 110px;
+                 }
+                 }
+
+ 
+
  @media(max-width:991px)
-    {
+             {
        
 
-        #calling h2{
-            font-size: 30px;
-        }
-        #calling p{
-            font-size: 20px;
-        }
-       #calling{
-        width:340px;
-       }
-       footer{
-        width:auto;
-       }
-       footer img{
-            height: 120px;
-            width: 200px;
-        }
+                #calling h2{
+                    font-size: 30px;
+                }
+                #calling p{
+                    font-size: 20px;
+                }
+               #calling{
+                width:340px;
+               }
+               footer{
+                width:auto;
+               }
+               footer img{
+                    height: 120px;
+                    width: 200px;
+                }
+               
+                .pagee {
+                    margin-top: 60px;
+                    margin-left: 0px ;
 
-         
+                    
+                }
+                .pagee img{
+                    transform: scale(0.9);
+                }
+                 li.show{
+                    font-size: 13px;
 
-        .pagee{
-            
-            margin-left: -200px;
-
-            height: 180px;
-            width:400px;
-            margin-bottom: -10px;
-       }
-        .pagee img{
-            margin-top: 60px;
-            margin-left: 30px;
-
-            
-        }
-        #ncc{
-        margin-left:90px; 
-        margin-top: -25px;
-        }
+                }
+                #ncc{
+                margin-left:90px; 
+                margin-top: -25px;
+                }
 
 
-        #social-platforms .btn-icon{
-            width: 90px;
+                #social-platforms .btn-icon{
+                    width: 90px;
 
-        }
-        .btn-facebook .btn-twitter .btn-google-plus .btn-pinterest .btn-linkedin{
-            width: 40px !important;
-        }
-        .fa-stack{
-            font-size: 2em !important;
-        }
-        .fa-circle{
-            font-size: 2.2em !important ;
-        }
-        
-        .homepage{
-            margin-left: 230px;
-            width: auto;
-        margin-top: 130px;
-        }
-
-         #slidepic{
-        margin-top: 90px;
-        margin-left: -250px;
-    }
-  #jssor_1{
-
-        position: relative; margin: 0 auto; top: 0px; margin-left:100px; width: 550px; height: 230px; overflow: hidden; visibility: hidden;
-        transform: scale(0.9);
-    }
-    #navig{
-        position: absolute; top: 0px; left: 0px;
-    }
-    #styll{
-        filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;
-    }
-    #styl{
-        position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;
-    }
-    #stylli{
-        cursor: default; position: relative; top: 0px; left: 0px; bottom: 0px; width: 550px; height: 230px; overflow: hidden;
-    }
-     #arro{
-        top:0px;left:8px;width:40px;height:40px;
-
-    }
-    #arro1{
-         top:0px;right:8px;width:40px;height:40px;
-
-    }
-    .jssora05l, .jssora05r {
-
-        margin-top: 110px;
-    }
+                }
+                .btn-facebook .btn-twitter .btn-google-plus .btn-pinterest .btn-linkedin{
+                    width: 40px !important;
+                }
+                #icon1{
+                    font-size: 2em !important;
+                }
+                .fa-circle{
+                    font-size: 2.2em !important ;
+                }
                 
-    }
-        @media(max-width:767px)
-    {
+                .homepage{
+                    margin-left: 230px;
+                    width: auto;
+                margin-top: 130px;
+                }
+
+                 #slidepic{
+                margin-top: 90px;
+                margin-left: -250px;
+            }
+          #jssor_1{
+
+                position: relative; margin: 0 auto; top: 0px; margin-left:100px; width: 550px; height: 230px; overflow: hidden; visibility: hidden;
+                transform: scale(0.85);
+            }
+            #navig{
+                position: absolute; top: 0px; left: 0px;
+            }
+            #styll{
+                filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;
+            }
+            #styl{
+                position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;
+            }
+            #stylli{
+                cursor: default; position: relative; top: 0px; left: 0px; bottom: 0px; width: 550px; height: 230px; overflow: hidden;
+            }
+             #arro{
+                top:0px;left:8px;width:40px;height:40px;
+
+            }
+            #arro1{
+                 top:0px;right:8px;width:40px;height:40px;
+
+            }
+             .jssora05l, .jssora05r {
+
+                    margin-top: 110px;
+                    }
+                        
+                    
+            }
+@media(max-width: 845px)
+                {
+
+                        .pagee img{
+                    
+                    
+                    transform: scale(.85);
+                                  
+                }
+                .pagee{
+                    margin-top: -20px;
+                    margin-left: 0px ;
+                }
+
+                .homepage{
+                    margin-top: 20px !important;
+                }
+                li.show{
+                    font-size: 12px;
+
+                }
 
 
-       
+                 #slidepic{
+                margin-top: 90px;
+                margin-left: -250px;
+            }
+          #jssor_1{
 
-         .pagee{
+                position: relative; margin: 0 auto; top: 0px; margin-left:100px; width: 580px; height: 260px; overflow: hidden; visibility: hidden;
+                transform: scale(0.75);
+            }
+            #navig{
+                position: absolute; top: 0px; left: 0px;
+            }
+            #styll{
+                filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;
+            }
+            #styl{
+                position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;
+            }
+            #stylli{
+                cursor: default; position: relative; top: 0px; left: 0px; bottom: 0px; width: 580px; height: 260px; overflow: hidden;
+            }
+             #arro{
+                top:0px;left:8px;width:40px;height:40px;
+
+            }
+            #arro1{
+                 top:0px;right:8px;width:40px;height:40px;
+
+            }
+             .jssora05l, .jssora05r {
+
+                    margin-top: 110px;
+                    }
+                    #social-platforms .btn-icon{
+                    width: 80px;
+
+                }
+                footer img{
+                    height: 100px;
+                    width: 160px;
+                }
+                    
+
+                 }  
+@media(max-width:767px)
+                  {
+                #calling h2{
+                    font-size: 22px;
+                }
+                #calling p{
+                    font-size: 16px;
+                }
+                #calling{
+                width:240px;
+                }
+                footer{
+                    width: auto;
+                }
+                footer img{
+                    height: 90px;
+                    width: 150px;
+                }
+
+                #jssor_1{
+                    width: 300px;
+                 height: 200px;   
+                }
+                li.show{
+                    font-size: 15px;
+
+                }
+                #ncc{
+                margin-left:0px; 
+                margin-top: -25px;
+                }
+
+                .pagee img{
+
+                   
+                    
+                    transform: scale(0.7) ;
+
+                    
+                }
+                .pagee{
+                    margin-top: -80px;
+                    margin-left: -40px;
+                }
+                
+
+                 #social-platforms .btn-icon {
+                    width: 60px;
+
+                }
+                #social-platforms .fa-facebook .fa-twitter .fa-google-plus .fa-pinterest .fa-linkedin{
+                    width: 30px;
+                }
+                #icon1{
+                    font-size: 1em !important;
+                }
+                .fa-circle{
+                    font-size: 2em !important ;
+                }
+                .homepage{
+                    margin-left: 200px;
+                    width: auto;
+                margin-top: 140px;
+                
+                }
+                
+
+
+                 #slidepic{
+                margin-top: 60px;
+                
             
-            margin-left: -200px;
+                margin-bottom: 40px;
+                  
+                 }
 
-            height: 180px;
-            width:400px;
-            margin-bottom: -100px;
-        }
-        #calling h2{
-            font-size: 22px;
-        }
-        #calling p{
-            font-size: 16px;
-        }
-        #calling{
-        width:240px;
-    }
-        footer{
-            width: auto;
-        }
-        footer img{
-            height: 90px;
-            width: 150px;
-        }
+             #jssor_1{
 
-        #jssor_1{
-            width: 300px;
-         height: 200px;   
-        }
+                position: relative; margin: 0 auto; top: 0px; margin-left: 20px; width:450px ; height: 180px; overflow: hidden; visibility: hidden;
+                transform: scale(0.8);
+            }
+            #navig{
+                position: absolute; top: 0px; left: 0px;
+            }
+            #styll{
+                filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;
+            }
+            #styl{
+                position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;
+            }
+            #stylli{
+                cursor: default; position: relative; top: 0px; left: 0px; bottom: 0px; width: 450px; height: 180px; overflow: hidden;
+            }
+             #arro{
+                top:0px;left:8px;width:40px;height:40px;
 
-        .pagee img{
-            margin-top: 140px;
-            margin-left: 30px;
-            height: 150px;
-        width: 450px ;
+            }
+            #arro1{
+                 top:0px;right:8px;width:40px;height:40px;
 
+            }
+            .jssora05l, .jssora05r {
+
+                margin-top: 95px;
+            }
+                
+            } 
+ @media(max-width:680px)
+                  {
+                #calling h2{
+                    font-size: 22px;
+                }
+                #calling p{
+                    font-size: 16px;
+                }
+                #calling{
+                width:240px;
+                }
+                footer{
+                    width: auto;
+                }
+                footer img{
+                    height: 90px;
+                    width: 150px;
+                }
+
+                #jssor_1{
+                    width: 300px;
+                 height: 200px;   
+                }
+                li.show{
+                    font-size: 15px;
+
+                }
+                #ncc{
+                margin-left:0px; 
+                margin-top: -25px;
+                }
+
+                .pagee img{
+
+                   
+                    
+                    transform: scale(0.5) ;
+
+                    
+                }
+                .pagee{
+                    margin-top: -140px;
+                    margin-left: -150px;
+                }
+                
+
+                 #social-platforms .btn-icon {
+                    width: 60px;
+
+                }
+                #social-platforms .fa-facebook .fa-twitter .fa-google-plus .fa-pinterest .fa-linkedin{
+                    width: 30px;
+                }
+                #icon1{
+                    font-size: 1em !important;
+                }
+                .fa-circle{
+                    font-size: 2em !important ;
+                }
+                .homepage{
+                    margin-left: 200px;
+                    width: auto;
+                margin-top: 140px;
+                
+                }
+                
+
+
+                 #slidepic{
+                margin-top: 60px;
+                
             
-        }
-        
+                margin-bottom: 40px;
+                  
+                 }
 
-         #social-platforms .btn-icon {
-            width: 60px;
+             #jssor_1{
 
-        }
-        #social-platforms .fa-facebook .fa-twitter .fa-google-plus .fa-pinterest .fa-linkedin{
-            width: 30px;
-        }
-        .fa-stack{
-            font-size: 1em !important;
-        }
-        .fa-circle{
+                position: relative; margin: 0 auto; top: 0px; margin-left: -40px ; width:450px ; height: 180px; overflow: hidden; visibility: hidden;
+                transform: scale(0.6);
+            }
+            #navig{
+                position: absolute; top: 0px; left: 0px;
+            }
+            #styll{
+                filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;
+            }
+            #styl{
+                position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;
+            }
+            #stylli{
+                cursor: default; position: relative; top: 0px; left: 0px; bottom: 0px; width: 450px; height: 180px; overflow: hidden;
+            }
+             #arro{
+                top:0px;left:8px;width:40px;height:40px;
+
+            }
+            #arro1{
+                 top:0px;right:8px;width:40px;height:40px;
+
+            }
+            .jssora05l, .jssora05r {
+
+                margin-top: 95px;
+            }
+                
+            } 
+           
+@media(max-width:599px)
+            {
+            #calling{
+                width: 180px;
+
+            }
+            #calling h2{
+                font-size: 15px;
+            }
+            #calling p{
+                font-size: 10px;
+            }
+            footer{
+                width: auto;
+            }
+            .homepage{
+                margin-top: -10px !important;
+                width: auto;
+                margin-left: 160px;
+            }
+            #calling p{
+                font-size: 15px;
+            }
+            #calling h2{
+                color:;
+                font-size: 25px;
+            }
+            .idk
+            {
+               font-size: 19px;
+            }
+            #icon1{
+                    font-size: 1em !important;
+            }
+            .fa-circle
+            {
             font-size: 2em !important ;
-        }
-        .homepage{
-            margin-left: 200px;
-            width: auto;
-        margin-top: 220px;
-        
-        }
-        
+            }
+            #social-platforms{
+                margin-left: 100px !important;
+            }
+            .pagee img
+            {
+                
+                
+                transform: scale(0.5) ;
+           
+            }
+            .pagee{
+                margin-top: -150px;
+                margin-left: -200px;
+            }
+            #slidepic
+            {
+                margin-top: 50px;
+                margin-left: -140px;
 
+            }
+            #jssor_1
+            {
 
-         #slidepic{
-        margin-top: 40px;
-        margin-left: -240px;
-        height: 150px;
-        width: 450px ;
-          
-         }
+                position: relative; margin: 0 auto; top: 0px; margin-left: -220px; width: 280px; height: 120px; overflow: hidden; visibility: hidden;
+                transform: scale(0.5);
+            }
+            #navig{
+                position: absolute; top: 0px; left: 0px;
+            }
+            #styll{
+                filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;
+            }
+            #styl{
+                position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;
+            }
+            #stylli{
+                cursor: default; position: relative; top: 0px; left: 0px; bottom: 0px; width: 280px; height: 120px; overflow: hidden;
+            }
+             #arro{
+                top:0px;left:8px;width:40px;height:40px;
 
-  #jssor_1{
+            }
+            #arro1{
+                 top:0px;right:8px;width:40px;height:40px;
 
-        position: relative; margin: 0 auto; top: 0px; margin-left: 40px; width: 350px; height: 180px; overflow: hidden; visibility: hidden;
-        transform: scale(0.8);
-    }
-    #navig{
-        position: absolute; top: 0px; left: 0px;
-    }
-    #styll{
-        filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;
-    }
-    #styl{
-        position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;
-    }
-    #stylli{
-        cursor: default; position: relative; top: 0px; left: 0px; bottom: 0px; width: 350px; height: 180px; overflow: hidden;
-    }
-     #arro{
-        top:0px;left:8px;width:40px;height:40px;
+            }
+            .jssora05l, .jssora05r {
 
-    }
-    #arro1{
-         top:0px;right:8px;width:40px;height:40px;
+                margin-top: 36px;
+            }
 
-    }
-    .jssora05l, .jssora05r {
-
-        margin-top: 95px;
-    }
-        
-    } 
-    @media(max-width:599px)
-    {
-#calling{
-    width: 180px;
-
-}
-#calling h2{
-    font-size: 15px;
-}
-#calling p{
-    font-size: 10px;
-}
-footer{
-    width: auto;
-}
-.homepage{
-    margin-top: 100px;
-    width: auto;
-    margin-left: 160px;
-}
-#calling p{
-    font-size: 15px;
-}
-#calling h2{
-    color:;
-    font-size: 25px;
-}
-.idk{
-        font-size: 19px;
-    }
-.pagee img{
-    margin-top: 40px;
-            margin-left: 40px;
-
-            height: 140px;
-            width:420px;
-        }
-  #slidepic{
-        margin-top: 50px;
-        margin-left: -140px;
-    }
-  #jssor_1{
-
-        position: relative; margin: 0 auto; top: 0px; margin-left: -140px; width: 200px; height: 80px; overflow: hidden; visibility: hidden;
-        transform: scale(0.6);
-    }
-    #navig{
-        position: absolute; top: 0px; left: 0px;
-    }
-    #styll{
-        filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;
-    }
-    #styl{
-        position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;
-    }
-    #stylli{
-        cursor: default; position: relative; top: 0px; left: 0px; bottom: 0px; width: 220px; height: 80px; overflow: hidden;
-    }
-     #arro{
-        top:0px;left:8px;width:40px;height:40px;
-
-    }
-    #arro1{
-         top:0px;right:8px;width:40px;height:40px;
-
-    }
-    .jssora05l, .jssora05r {
-
-        margin-top: 36px;
-    }
-
-    }
-
-@media(max-width: 360px)
+            }
+@media(max-width: 540px)
 {
-
-#calling h2{
-    font-size: 10px;
+    .pagee img{
+        height: 80px;
+        width: 200px;
+    }
 }
-#calling p{
-    font-size: 7px;
-}
-footer{
-    width: auto;
-}
-.homepage{
-    margin-left: 70px;
-    width: auto;
-    margin-top: 90px;
-}
-footer{
-    height: auto;
-}
-footer img{
-            height: 60px;
-            width: 90px;
-        }
-.pagee img{
-    margin-top: 80px;
-    margin-left: 30px;
+ @media (max-width: 539px)
+ {
 
-    height: 100px;
-    width:220px;
+    
+            #calling{
+                width: 180px;
 
-    }
-     #social-platforms {
-  
-  margin-top:10px;
-  margin-left: 0px;
-  font-size:1rem;
-  text-align:center;
-  height:50px;
-  overflow:visible;
-}
+            }
+            #calling h2{
+                font-size: 15px;
+            }
+            #calling p{
+                font-size: 10px;
+            }
+            footer{
+                width: auto;
+            }
+            .homepage{
+                margin-top: 50px !important;
+                width: auto;
+                margin-left: 100px;
+            }
+            #calling p{
+                font-size: 15px;
+            }
+            #calling h2{
+                color:;
+                font-size: 25px;
+            }
+            .idk
+            {
+               font-size: 19px;
+            }
+            #icon1{
+                    font-size: 1em !important;
+            }
+            .fa-circle
+            {
+            font-size: 2em !important ;
+            }
+            #social-platforms{
+                margin-left: 100px !important;
+            }
+            .pagee img
+            {
+                
+                
+                
+                transform: scale(2);
+           
+            }
+            .pagee{
+                margin-top: -50px;
+                margin-left: 100px;
+            }
+            #slidepic
+            {
+                margin-top: 50px;
+                margin-left: -140px;
 
-    #slidepic{
-        margin-top: 30px;
-        margin-left: -250px;
-    }
-  #jssor_1{
+            }
+            #jssor_1
+            {
 
-        position: relative; margin: 0 auto; top: 0px; margin-left: -65px; width: 220px; height: 100px; overflow: hidden; visibility: hidden;
-        transform: scale(0.5);
-    }
-    #navig{
-        position: absolute; top: 0px; left: 0px;
-    }
-    #styll{
-        filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;
-    }
-    #styl{
-        position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;
-    }
-    #stylli{
-        cursor: default; position: relative; top: 0px; left: 0px; bottom: 0px; width: 220px; height: 100px; overflow: hidden;
-    }
-     #arro{
-        top:0px;left:8px;width:40px;height:40px;
+                position: relative; margin: 0 auto; top: 0px; margin-left: -200px; width: 280px; height: 120px; overflow: hidden; visibility: hidden;
+                transform: scale(0.55);
+            }
+            #navig{
+                position: absolute; top: 0px; left: 0px;
+            }
+            #styll{
+                filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;
+            }
+            #styl{
+                position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;
+            }
+            #stylli{
+                cursor: default; position: relative; top: 0px; left: 0px; bottom: 0px; width: 280px; height: 120px; overflow: hidden;
+            }
+             #arro{
+                top:0px;left:8px;width:40px;height:40px;
 
-    }
-    #arro1{
-         top:0px;right:8px;width:40px;height:40px;
+            }
+            #arro1{
+                 top:0px;right:8px;width:40px;height:40px;
 
-    }
-    .jssora05l, .jssora05r {
+            }
+            .jssora05l, .jssora05r {
 
-        margin-top: 60px;
-    }
-    .idk{
-        font-size: 12px;
-    }
+                margin-top: 36px;
+            }
+
+ }          
+@media (max-width: 500px)
+            {
+                #calling{
+                width: 180px;
+
+            }
+            #calling h2{
+                font-size: 15px;
+            }
+            #calling p{
+                font-size: 10px;
+            }
+            footer{
+                width: auto;
+            }
+            footer img{
+                width: 100px !important;
+                height: 70px !important;
+            }
+            .homepage{
+                margin-top: 60px !important;
+                width: auto;
+                margin-left: 120px !important;
+            }
+            #calling p{
+                font-size: 15px;
+            }
+            #calling h2{
+                color:;
+                font-size: 25px;
+            }
+            .idk
+            {
+               font-size: 19px;
+            }
+            #icon1{
+                    font-size: 1em !important;
+            }
+            .fa-circle
+            {
+            font-size: 2em !important ;
+            }
+            #social-platforms{
+                margin-top: 18px !important; 
+                margin-left: 100px !important;
+            }
+            .pagee img
+            {
+                
+                
+                transform: scale(1.8) ;
+           
+            }
+            .pagee{
+                margin-top: -40px;
+                margin-left: 70px ;
+            }
+            #slidepic
+            {
+                margin-top: 50px;
+                margin-left: -140px;
+
+            }
+            #jssor_1
+            {
+
+                position: relative; margin: 0 auto; top: 0px; margin-left: -190px !important; width: 280px; height: 120px; overflow: hidden; visibility: hidden;
+                transform: scale(0.6);
+            }
+            #navig{
+                position: absolute; top: 0px; left: 0px;
+            }
+            #styll{
+                filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;
+            }
+            #styl{
+                position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;
+            }
+            #stylli{
+                cursor: default; position: relative; top: 0px; left: 0px; bottom: 0px; width: 280px; height: 120px; overflow: hidden;
+            }
+             #arro{
+                top:0px;left:8px;width:40px;height:40px;
+
+            }
+            #arro1{
+                 top:0px;right:8px;width:40px;height:40px;
+
+            }
+            .jssora05l, .jssora05r {
+
+                margin-top: 36px;
+            }
+
+            }
+
+ @media (max-width: 430px)
+
+            {
+                #calling{
+                width: 180px;
+
+            }
+            #calling h2{
+                font-size: 15px;
+            }
+            #calling p{
+                font-size: 10px;
+            }
+            footer{
+                width: auto;
+            }
+            footer img{
+                width: 100px !important;
+                height: 70px !important;
+            }
+            .homepage{
+                margin-top: 20px !important;
+                width: auto;
+                margin-left: 80px !important;
+            }
+            #calling p{
+                font-size: 15px;
+            }
+            #calling h2{
+                color:;
+                font-size: 25px;
+            }
+            .idk
+            {
+               font-size: 19px;
+            }
+            #icon1{
+                    font-size: 1em !important;
+            }
+            .fa-circle
+            {
+            font-size: 2em !important ;
+            }
+            #social-platforms{
+                margin-top: 18px !important; 
+                margin-left: 80px !important;
+            }
+            #social-platforms .btn-icon{
+                    width: 40px !important;
+
+                }
+            .pagee img
+            {
+               
+                
+                transform: scale(1.4) ;
+           
+            }
+            .pagee{
+                 margin-top: -70px ; 
+
+                margin-left: 40px;
+            }
+            #slidepic
+            {
+                margin-top: 50px;
+                margin-left: -140px;
+
+            }
+            #jssor_1
+            {
+
+                position: relative; margin: 0 auto; top: 0px; margin-left: -170px !important; width: 280px; height: 120px; overflow: hidden; visibility: hidden;
+                transform: scale(0.6);
+            }
+            #navig{
+                position: absolute; top: 0px; left: 0px;
+            }
+            #styll{
+                filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;
+            }
+            #styl{
+                position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;
+            }
+            #stylli{
+                cursor: default; position: relative; top: 0px; left: 0px; bottom: 0px; width: 280px; height: 120px; overflow: hidden;
+            }
+             #arro{
+                top:0px;left:8px;width:40px;height:40px;
+
+            }
+            #arro1{
+                 top:0px;right:8px;width:40px;height:40px;
+
+            }
+            .jssora05l, .jssora05r {
+
+                margin-top: 36px;
+            }
 
 
+            }           
+ @media(max-width: 360px)
+            {
 
-}
+            #calling h2{
+                font-size: 10px;
+            }
+            #calling p{
+                font-size: 7px;
+            }
+            footer{
+                width: auto;
+            }
+            .homepage{
+                margin-left: 70px;
+                width: auto;
+                margin-top: 70px;
+            }
+            footer{
+                height: auto;
+            }
+            footer img{
+                        height: 40px ;
+                        width: 80px !important;
+                    }
+            .pagee img{
+                
+                
+
+                transform: scale(1.2);
+
+            }
+             #social-platforms .btn-icon{
+                    width: 30px !important;
+
+                }
+              .pagee{
+                margin-top: -120px;
+            
+            margin-left: 30px ;
+
+            
+       }
+
+            #slidepic{
+                margin-top: 30px;
+                margin-left: -250px;
+            }
+            #jssor_1{
+
+                position: relative; margin: 0 auto; top: 0px; margin-left: -105px !important; width: 280px; height: 120px; overflow: hidden; visibility: hidden;
+                transform: scale(0.45);
+            }
+            #navig{
+                position: absolute; top: 0px; left: 0px;
+            }
+            #styll{
+                filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;
+            }
+            #styl{
+                position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;
+            }
+            #stylli{
+                cursor: default; position: relative; top: 0px; left: 0px; bottom: 0px; width: 280px; height: 120px; overflow: hidden;
+            }
+             #arro{
+                top:0px;left:8px;width:40px;height:40px;
+
+            }
+            #arro1{
+                 top:0px;right:8px;width:40px;height:40px;
+
+            }
+            .jssora05l, .jssora05r {
+
+                margin-top: 60px;
+            }
+            .idk{
+                font-size: 12px;
+            }
+            }
 
  @media (max-width:319px)
-    {
+                {
 
-#calling h2{
-    font-size: 10px;
-}
-#calling p{
-    font-size: 7px;
-}
-footer{
-    width: auto;
-}
-.homepage{
-    margin-left: 50px;
-    width: auto;
-    margin-top: 60px;
-}
-footer{
-    height: auto;
-}
-footer img{
-            height: 60px;
-            width: 90px;
-        }
-.pagee img{
-    margin-top: 40px;
-            margin-left: 0px;
+            #calling h2{
+                font-size: 10px;
+            }
+            #calling p{
+                font-size: 7px;
+            }
+            footer{
+                width: auto;
+            }
+            .homepage{
+                margin-left: 40px !important;
+                width: auto;
+                margin-top: 20px !important;
+            }
+            footer{
+                height: auto;
+            }
+            footer img{
+                        height: 60px;
+                        width: 90px;
+                    }
+            .pagee img{
 
-            height: 100px;
-            width:220px;
+                
+                        
+                    transform: scale(1.1) ;
 
-    }
-     #social-platforms {
-  
-  margin-top:10px;
-  margin-left: 0px;
-  font-size:1rem;
-  text-align:center;
-  height:50px;
-  overflow:visible;
-}
+                }
+                .pagee{
+                    margin-top: -120px;
 
-    #slidepic{
-        margin-top: 50px;
-        margin-left: -250px;
-    }
-  #jssor_1{
+                    margin-left: 0px;
+                }
+               
 
-        position: relative; margin: 0 auto; top: 0px; margin-left: -105px; width: 220px; height: 100px; overflow: hidden; visibility: hidden;
-        transform: scale(0.5);
-    }
-    #navig{
-        position: absolute; top: 0px; left: 0px;
-    }
-    #styll{
-        filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;
-    }
-    #styl{
-        position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;
-    }
-    #stylli{
-        cursor: default; position: relative; top: 0px; left: 0px; bottom: 0px; width: 220px; height: 100px; overflow: hidden;
-    }
-     #arro{
-        top:0px;left:8px;width:40px;height:40px;
+                #slidepic{
+                    margin-top: 50px;
+                    margin-left: -250px !important;
+                }
+              #jssor_1{
 
-    }
-    #arro1{
-         top:0px;right:8px;width:40px;height:40px;
+                    position: relative; margin: 0 auto; top: 0px; margin-left: -105px; width: 220px; height: 100px; overflow: hidden; visibility: hidden;
+                    transform: scale(0.45);
+                }
+                #navig{
+                    position: absolute; top: 0px; left: 0px;
+                }
+                #styll{
+                    filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;
+                }
+                #styl{
+                    position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;
+                }
+                #stylli{
+                    cursor: default; position: relative; top: 0px; left: 0px; bottom: 0px; width: 220px; height: 100px; overflow: hidden;
+                }
+                 #arro{
+                    top:0px;left:8px;width:40px;height:40px;
 
-    }
-    .jssora05l, .jssora05r {
+                }
+                #arro1{
+                     top:0px;right:8px;width:40px;height:40px;
 
-        margin-top: 60px;
-    }
-    .idk{
-        font-size: 12px;
-    }
+                }
+                .jssora05l, .jssora05r {
+
+                    margin-top: 60px;
+                }
+                .idk{
+                    font-size: 12px;
+                }
 
 
 
-}
+            }
