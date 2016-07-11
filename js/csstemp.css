@@ -222,7 +222,7 @@ margin-bottom: 0px;
 
                     .pagee{
                         
-                        margin-left: 70px ;
+                        margin-left: 100px ;
 
                         
                    }
@@ -250,7 +250,7 @@ margin-bottom: 0px;
                 }
                 #jssor_1{
 
-                    position: relative; margin: 0 auto; top: 0px; margin-left:140px; width: 550px; height: 230px; overflow: hidden; visibility: hidden;
+                    position: relative; margin: 0 auto; top: 0px; margin-left:180px; width: 550px; height: 230px; overflow: hidden; visibility: hidden;
                     transform: scale(0.9);
                 }
                 #navig{
@@ -303,7 +303,7 @@ margin-bottom: 0px;
                 }
                
                 .pagee {
-                    margin-top: 60px;
+                    margin-top: 0px;
                     margin-left: 0px ;
 
                     
@@ -338,7 +338,7 @@ margin-bottom: 0px;
                 .homepage{
                     margin-left: 230px;
                     width: auto;
-                margin-top: 130px;
+                margin-top: 20px;
                 }
 
                  #slidepic{
@@ -347,7 +347,7 @@ margin-bottom: 0px;
             }
           #jssor_1{
 
-                position: relative; margin: 0 auto; top: 0px; margin-left:100px; width: 550px; height: 230px; overflow: hidden; visibility: hidden;
+                position: relative; margin: 0 auto; top: 0px; margin-left:70px; width: 550px; height: 230px; overflow: hidden; visibility: hidden;
                 transform: scale(0.85);
             }
             #navig{
@@ -406,7 +406,7 @@ margin-bottom: 0px;
             }
           #jssor_1{
 
-                position: relative; margin: 0 auto; top: 0px; margin-left:100px; width: 580px; height: 260px; overflow: hidden; visibility: hidden;
+                position: relative; margin: 0 auto; top: 0px; margin-left:60px; width: 580px; height: 260px; overflow: hidden; visibility: hidden;
                 transform: scale(0.75);
             }
             #navig{
@@ -444,6 +444,74 @@ margin-bottom: 0px;
                     
 
                  }  
+
+@media(max-width: 800px)
+                {
+
+                        .pagee img{
+                    
+                    margin-left: -20px;
+                    transform: scale(.6);
+                                  
+                }
+                .pagee{
+                    margin-top: -20px;
+                    margin-left: -40px ;
+                }
+
+                .homepage{
+                    margin-top: 20px !important;
+                }
+                li.show{
+                    font-size: 12px;
+
+                }
+
+
+                 #slidepic{
+                margin-top: 90px;
+                margin-left: -250px;
+            }
+          #jssor_1{
+
+                position: relative; margin: 0 auto; top: 0px; margin-left:60px; width: 580px; height: 260px; overflow: hidden; visibility: hidden;
+                transform: scale(0.7);
+            }
+            #navig{
+                position: absolute; top: 0px; left: 0px;
+            }
+            #styll{
+                filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;
+            }
+            #styl{
+                position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;
+            }
+            #stylli{
+                cursor: default; position: relative; top: 0px; left: 0px; bottom: 0px; width: 580px; height: 260px; overflow: hidden;
+            }
+             #arro{
+                top:0px;left:8px;width:40px;height:40px;
+
+            }
+            #arro1{
+                 top:0px;right:8px;width:40px;height:40px;
+
+            }
+             .jssora05l, .jssora05r {
+
+                    margin-top: 110px;
+                    }
+                    #social-platforms .btn-icon{
+                    width: 80px;
+
+                }
+                footer img{
+                    height: 100px;
+                    width: 160px;
+                }
+                    
+
+                 }                   
 @media(max-width:767px)
                   {
                 #calling h2{
@@ -480,13 +548,15 @@ margin-bottom: 0px;
 
                    
                     
-                    transform: scale(0.7) ;
+                    transform: scale(0.6) ;
 
                     
                 }
                 .pagee{
-                    margin-top: -80px;
-                    margin-left: -40px;
+                    margin-top: -110px;
+                    margin-left: -20px;
+                    
+                    
                 }
                 
 
@@ -522,7 +592,7 @@ margin-bottom: 0px;
 
              #jssor_1{
 
-                position: relative; margin: 0 auto; top: 0px; margin-left: 20px; width:450px ; height: 180px; overflow: hidden; visibility: hidden;
+                position: relative; margin: 0 auto; top: 0px; margin-left: 40px; width:450px ; height: 180px; overflow: hidden; visibility: hidden;
                 transform: scale(0.8);
             }
             #navig{
@@ -551,7 +621,16 @@ margin-bottom: 0px;
             }
                 
             } 
- @media(max-width:680px)
+
+
+@media(max-width: 690px)
+{
+    .pagee img{
+        height: 80px;
+        width: 200px;
+    }
+
+ @media(max-width:689px)
                   {
                 #calling h2{
                     font-size: 22px;
@@ -587,13 +666,13 @@ margin-bottom: 0px;
 
                    
                     
-                    transform: scale(0.5) ;
+                    transform: scale(2.2) ;
 
                     
                 }
                 .pagee{
-                    margin-top: -140px;
-                    margin-left: -150px;
+                    margin-top: -20px;
+                    margin-left: 220px;
                 }
                 
 
@@ -613,7 +692,7 @@ margin-bottom: 0px;
                 .homepage{
                     margin-left: 200px;
                     width: auto;
-                margin-top: 140px;
+                margin-top: 180px;
                 
                 }
                 
@@ -629,8 +708,8 @@ margin-bottom: 0px;
 
              #jssor_1{
 
-                position: relative; margin: 0 auto; top: 0px; margin-left: -40px ; width:450px ; height: 180px; overflow: hidden; visibility: hidden;
-                transform: scale(0.6);
+                position: relative; margin: 0 auto; top: 0px; margin-left: 20px ; width:450px ; height: 180px; overflow: hidden; visibility: hidden;
+                transform: scale(0.7);
             }
             #navig{
                 position: absolute; top: 0px; left: 0px;
@@ -675,9 +754,9 @@ margin-bottom: 0px;
                 width: auto;
             }
             .homepage{
-                margin-top: -10px !important;
+                margin-top: 20px ;
                 width: auto;
-                margin-left: 160px;
+                margin-left: 180px;
             }
             #calling p{
                 font-size: 15px;
@@ -704,12 +783,12 @@ margin-bottom: 0px;
             {
                 
                 
-                transform: scale(0.5) ;
+                transform: scale(2) ;
            
             }
             .pagee{
-                margin-top: -150px;
-                margin-left: -200px;
+                margin-top: -50px;
+                margin-left: 180px;
             }
             #slidepic
             {
@@ -720,8 +799,8 @@ margin-bottom: 0px;
             #jssor_1
             {
 
-                position: relative; margin: 0 auto; top: 0px; margin-left: -220px; width: 280px; height: 120px; overflow: hidden; visibility: hidden;
-                transform: scale(0.5);
+                position: relative; margin: 0 auto; top: 0px; margin-left: -130px; width: 280px; height: 120px; overflow: hidden; visibility: hidden;
+                transform: scale(0.6);
             }
             #navig{
                 position: absolute; top: 0px; left: 0px;
@@ -749,14 +828,8 @@ margin-bottom: 0px;
             }
 
             }
-@media(max-width: 540px)
-{
-    .pagee img{
-        height: 80px;
-        width: 200px;
-    }
-}
- @media (max-width: 539px)
+
+ @media (max-width: 540px)
  {
 
     
@@ -774,9 +847,9 @@ margin-bottom: 0px;
                 width: auto;
             }
             .homepage{
-                margin-top: 50px !important;
+                margin-top: 60px ;
                 width: auto;
-                margin-left: 100px;
+                margin-left: 140px;
             }
             #calling p{
                 font-size: 15px;
@@ -808,8 +881,8 @@ margin-bottom: 0px;
            
             }
             .pagee{
-                margin-top: -50px;
-                margin-left: 100px;
+                margin-top: -60px;
+                margin-left: 150px;
             }
             #slidepic
             {
@@ -820,7 +893,7 @@ margin-bottom: 0px;
             #jssor_1
             {
 
-                position: relative; margin: 0 auto; top: 0px; margin-left: -200px; width: 280px; height: 120px; overflow: hidden; visibility: hidden;
+                position: relative; margin: 0 auto; top: 0px; margin-left: -155px; width: 280px; height: 120px; overflow: hidden; visibility: hidden;
                 transform: scale(0.55);
             }
             #navig{
@@ -904,7 +977,7 @@ margin-bottom: 0px;
             }
             .pagee{
                 margin-top: -40px;
-                margin-left: 70px ;
+                margin-left: 120px ;
             }
             #slidepic
             {
@@ -915,7 +988,7 @@ margin-bottom: 0px;
             #jssor_1
             {
 
-                position: relative; margin: 0 auto; top: 0px; margin-left: -190px !important; width: 280px; height: 120px; overflow: hidden; visibility: hidden;
+                position: relative; margin: 0 auto; top: 0px; margin-left: -155px !important; width: 280px; height: 120px; overflow: hidden; visibility: hidden;
                 transform: scale(0.6);
             }
             #navig{
@@ -1006,7 +1079,7 @@ margin-bottom: 0px;
             .pagee{
                  margin-top: -70px ; 
 
-                margin-left: 40px;
+                margin-left: 80px;
             }
             #slidepic
             {
@@ -1017,7 +1090,7 @@ margin-bottom: 0px;
             #jssor_1
             {
 
-                position: relative; margin: 0 auto; top: 0px; margin-left: -170px !important; width: 280px; height: 120px; overflow: hidden; visibility: hidden;
+                position: relative; margin: 0 auto; top: 0px; margin-left: -160px !important; width: 280px; height: 120px; overflow: hidden; visibility: hidden;
                 transform: scale(0.6);
             }
             #navig{
@@ -1085,7 +1158,7 @@ margin-bottom: 0px;
               .pagee{
                 margin-top: -120px;
             
-            margin-left: 30px ;
+            margin-left: 50px ;
 
             
        }
@@ -1162,7 +1235,7 @@ margin-bottom: 0px;
                 .pagee{
                     margin-top: -120px;
 
-                    margin-left: 0px;
+                    margin-left: 40px;
                 }
                
 
