@@ -3,7 +3,9 @@
         .bodybg{
 
             background-image: url(bg.jpg);
+
         }
+      
 
 
         #jssor_1{
@@ -80,9 +82,56 @@
                 
 
                 }
+                .homepage1{
+            width:600px; 
+            margin:200px auto 200px auto;
+            text-align: center;
+            
+            align-items: right;
+            background-color: transparent;
+            padding-right: 2px;
+        }
+        .homepage1 p{
+
+          font-size: 40px;
+          color: white;
+          font-family: 'Arvo',courier ,serif;
+        }
+        .homepage2 p{
+            padding-left: 10px;
+            font-weight: 200px;
+          font-size: 25px;
+          
+          color: white;
+          font-family: 'Arvo',courier ,serif;
+        }
+        .homepage2{
+            margin: 100px auto;
+           
+            text-align: center;
+            
+            align-items: right;
+            background-color: transparent;
+                    
+
+        }
+        .homepage2 hr{
+            width: 60%;
+            border-color:yellow;
+            margin: 10px auto;
+
+        }
+         .homepage3 hr{
+            width: 0%;
+            border-color:yellow;
+            
+
+        }
+       
+
 
         .homepage{
-            width:1100px; 
+            width:1200px; 
             margin:0px auto 0px 0px;
             text-align: center;
             
@@ -92,6 +141,19 @@
         
 
         }
+        .homepage3{
+            width:1200px; 
+            margin:80px auto 0px 0px;
+            
+            
+            align-items: right;
+            background-color: transparent;
+            padding-right: 2px;
+        
+
+        }
+       
+
         .homepage h2{
             text-transform: uppercase;
             font-size: 40px;
@@ -99,6 +161,16 @@
             font-family: 'Arvo',courier ,serif; 
             font-weight: 300;
             padding: 20px 0px 10px 0px;
+
+
+        }
+        .homepage2 h2{
+            text-transform: uppercase;
+            font-size: 35px;
+            color: white;
+            font-family: 'Arvo',courier ,serif; 
+            font-weight: 300;
+            padding: 10px 0px 10px 0px;
 
 
         }
@@ -116,6 +188,31 @@
        footer{
         position: relative;
         background-color:#f7453c; 
+
+        
+       }
+       #message{
+        color:red;
+        width:400px;
+        margin-left: -15px;
+
+       }
+       .loggin1 .btn{
+        width:130px;
+        height:50px;
+        margin-left: -15px;
+        font-size: 15px;
+       }
+       .loggin .btn{
+        margin:150px auto auto auto;
+        width: 140px;
+        height: 70px;
+        font-size: 30px;
+       }
+       #vert{
+        border-left:medium#CC0000 solid; 
+        margin:120px auto auto 600px;
+        height:170px; 
         
        }
 
