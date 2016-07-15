@@ -92,7 +92,7 @@
        
       <li class="show"><a href="contact-us.html">About us</a></li>
       <li class="show"><a href="cate.html">Categories</a></li> 
-      <li class="show"><a href="../csst/logg.html">sign up</a></li>
+      <li class="show"><a href="login.html">login</a></li>
 
     </ul>
                 </div><!-- bs-example-navbar-collapse-1 -->
@@ -142,7 +142,7 @@
 
 <div class="container homepage3">
 <div class="row">
-
+<form method="post" autocomplete="off">
 <div class="col-md-8">
   
   <p>Your First Name:</p>
@@ -153,7 +153,7 @@
       <span class="input-group-btn">
         
       </span>
-      <input type="text" class="form-control" placeholder="First Name" >
+      <input type="text" name="fname" class="form-control" placeholder="First Name" >
     </div>
 
 
@@ -167,7 +167,7 @@
       <span class="input-group-btn">
        
       </span>
-      <input type="text" class="form-control" placeholder="Last Name" >
+      <input type="text" name="lname" class="form-control" placeholder="Last Name" >
     
 
     </div>
@@ -182,27 +182,44 @@
       <span class="input-group-btn">
         
       </span>
-      <input type="text" class="form-control" placeholder="Email" >
+      <input type="text" name="email" class="form-control" placeholder="Email" >
     </div>
 
     
   </div>
+<p>Password:</p>
+<div class="row">
+  <div class="col-lg-4 input-group">
+ 
+      <span class="input-group-btn">
+        
+      </span>
+      <input type="password" name="pass" class="form-control" placeholder="Min. 6 digits" >
+    </div>
 
-  <p>message:</p>
-  
-<textarea name="message" id="message" rows="6" cols="110" ></textarea> 
-<br><div id="textarea_res" ></div>
-  
-<div class="col-md-4 my-box-1 "></div>  
+    
+  </div>
+  <p>Date-Of-Birth:</p>
+  <div class="row">
+  <div class="col-lg-4 input-group">
+ 
+      <span class="input-group-btn">
+        
+      </span>
+      <input type="date" name="dob" class="form-control" placeholder="DOB" >
+    </div>
+
+    
+  </div>
   <p>   </p>
   <div class="loggin1">
-  <button type="button" class="btn btn-default">Sign-up</button>
+  <button type="button" class="btn btn-default" value="log">Sign-up</button>
 </div>
 <hr>
 </div>
 
 <div class="col-md-4 loggin">
-<button type="button" class="btn btn-danger btn-lg">Login</button>
+<a href="login.html"><button type="button" class="btn btn-danger btn-lg">Login</button></a>
 </div>
 <div id="vert"></div>
 </div>
@@ -245,7 +262,18 @@
 </footer>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/sidebar_menu.js"></script>
-    
   
+<?php
+  if(isset($_POST['Fname']) && isset($_POST['Email']) && isset($_POST['Password']))
+{
+$F = $_POST['Fname'];
+$E = $_POST['Email'];
+$P = $_POST['Password'];
+
+ }
+  $P=md5($P);
+  $query="insert into login_p(Fname,Email,Password) values('$F','$E','$P')";
+    mysql_query("$query");  
+  ?>
 </body>
 </html>
